@@ -44,9 +44,9 @@ const SideItems = () => {
       <Divider />
       <Text disabled style={{fontWeight:500 , marginLeft:10}}>RECENTLY VIEWED</Text>
       <Space direction="vertical"  style={{marginTop:5}}>
-      <Text  style={{fontWeight:600 , marginLeft:10}}>Overall Performance &#8594;</Text>
-      <Text  style={{fontWeight:600 , marginLeft:10}}>Invoice #940 &#8594;</Text>
-      <Text  style={{fontWeight:600 , marginLeft:10}}>Customer Minerva Viewer &#8594;</Text>
+      <Text  style={{fontWeight:500 , marginLeft:10}}>Overall Performance &#8594;</Text>
+      <Text  style={{fontWeight:500 , marginLeft:10}}>Invoice #940 &#8594;</Text>
+      <Text  style={{fontWeight:500 , marginLeft:10}}>Customer Minerva Viewer &#8594;</Text>
       </Space>
     </div>
   );
