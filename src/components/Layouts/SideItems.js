@@ -8,25 +8,29 @@ import {
   InboxOutlined,
 } from "@ant-design/icons";
 
+const { SubMenu } = Menu;
+
 const SideItems = () => {
   return (
-    <Menu theme="light" mode="inline" defaultSelectedKeys={["4"]}>
-      <Menu.Item
-        key="1"
+    <Menu theme="light" mode="inline">
+      <SubMenu
         icon={<AppstoreAddOutlined style={{ fontSize: 18 }} />}
+        title="Dashboard"
       >
-        Dashboard
-      </Menu.Item>
-      <Menu.Item key="2" icon={<CalendarOutlined style={{ fontSize: 18 }} />}>
+        <Menu.Item>Page Visitors</Menu.Item>
+        <Menu.Item>Post Performance</Menu.Item>
+        <Menu.Item>Team Overall</Menu.Item>
+      </SubMenu>
+      <Menu.Item icon={<CalendarOutlined style={{ fontSize: 18 }} />}>
         Calendar
       </Menu.Item>
-      <Menu.Item key="3" icon={<InboxOutlined style={{ fontSize: 18 }} />}>
+      <Menu.Item icon={<InboxOutlined style={{ fontSize: 18 }} />}>
         Inbox
       </Menu.Item>
-      <Menu.Item key="4" icon={<SwitcherOutlined style={{ fontSize: 18 }} />}>
+      <Menu.Item icon={<SwitcherOutlined style={{ fontSize: 18 }} />}>
         Invoicing
       </Menu.Item>
-      <Menu.Item key="5" icon={<HddOutlined style={{ fontSize: 18 }} />}>
+      <Menu.Item icon={<HddOutlined style={{ fontSize: 18 }} />}>
         Lab / Experimental
       </Menu.Item>
     </Menu>
