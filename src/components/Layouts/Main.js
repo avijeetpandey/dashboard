@@ -4,6 +4,7 @@ import {HomeOutlined} from "@ant-design/icons"
 import { Layout, Divider } from "antd";
 const { Header, Content, Footer, Sider } = Layout;
 
+
 const Main = () => {
   return (
     <Layout>
