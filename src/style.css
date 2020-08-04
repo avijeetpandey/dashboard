@@ -1,7 +1,10 @@
 #components-layout-demo-responsive .logo {
   height: 32px;
-  background: rgba(255, 255, 255, 0.2);
   margin: 16px;
+}
+
+body{
+  background: #fff;
 }
 
 .site-layout-sub-header-background {
@@ -19,4 +22,20 @@
 .ctr{
   text-align: center;
   font-size: 18px;
+}
+
+.dp{
+  height:100px;
+  width: 100px;
+  margin-left: 5%;
+}
+
+
+.dp-text{
+  text-align: center;
+}
+
+.online{
+  color:green;
+  font-size: 50px;
 }

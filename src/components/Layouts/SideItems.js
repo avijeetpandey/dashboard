@@ -1,5 +1,6 @@
 import React from "react";
-import { Menu } from "antd";
+import { Menu} from "antd";
+
 import Profile from "./../Profile/Profile";
 import {
   AppstoreAddOutlined,
@@ -12,12 +13,11 @@ const { SubMenu } = Menu;
 
 
 
+
 const SideItems = () => {
   return (
     <Menu theme="light" mode="inline">
-      <Menu.Item>
-        <Profile />
-      </Menu.Item>
+     <Profile />
       <SubMenu
         icon={<AppstoreAddOutlined style={{ fontSize: 18 }} />}
         title="Dashboard"
