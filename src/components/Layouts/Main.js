@@ -30,7 +30,7 @@ const Main = () => {
             className="site-layout-background"
             style={{ padding: 24, minHeight: "100vh" }}
           >
-            <Card title="Daily Visitors" bordered={true} style={{ width: "90%" }}  extra={<CustomDropDown />} className="card">
+            <Card title="Daily Visitors" bordered={true} style={{ width: "100%" ,height:"40%" }}  extra={<CustomDropDown />} className="card">
           <Vchart />
     </Card>
           </div>
