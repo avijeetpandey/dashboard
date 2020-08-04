@@ -31,6 +31,10 @@ body{
   margin-bottom: -10%;
 }
 
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
 
 .dp-text{
   text-align: center;

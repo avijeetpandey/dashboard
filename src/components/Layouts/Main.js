@@ -3,7 +3,8 @@ import Vchart from '../Charts/Vchart';
 import NavBar from '../Common/NavBar';
 import SideItems from "./SideItems";
 import {HomeOutlined} from "@ant-design/icons"
-import { Layout, Divider } from "antd";
+import { Layout, Divider , Card , DropDown } from "antd";
+import CustomDropDown from "../Common/CustomDropDown";
 const { Header, Content, Sider } = Layout;
 
 
@@ -29,7 +30,9 @@ const Main = () => {
             className="site-layout-background"
             style={{ padding: 24, minHeight: "100vh" }}
           >
-            <Vchart />
+            <Card title="Daily Visitors" bordered={true} style={{ width: "90%" }}  extra={<CustomDropDown />}>
+          <Vchart />
+    </Card>
           </div>
         </Content>
       </Layout>
