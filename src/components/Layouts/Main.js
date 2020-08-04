@@ -1,4 +1,5 @@
 import React from "react";
+import Vchart from '../Charts/Vchart';
 import NavBar from '../Common/NavBar';
 import SideItems from "./SideItems";
 import {HomeOutlined} from "@ant-design/icons"
@@ -28,7 +29,7 @@ const Main = () => {
             className="site-layout-background"
             style={{ padding: 24, minHeight: "100vh" }}
           >
-            content
+            <Vchart />
           </div>
         </Content>
       </Layout>
