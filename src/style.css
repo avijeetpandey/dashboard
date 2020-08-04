@@ -44,3 +44,9 @@ body{
   color:green;
   font-size: 50px;
 }
+
+.card{
+  box-shadow: 2px 2px 2px 3px rgb(219, 214, 214);
+  margin:0 auto;
+  border-radius:4px;
+}

@@ -15,7 +15,6 @@ const Main = () => {
         <Header className="bg ctr">
           <HomeOutlined />
         </Header>
-        <Divider />
         <SideItems />
       </Sider>
       <Layout>
@@ -24,13 +23,14 @@ const Main = () => {
           style={{ padding: 0  , height:89}}
         >
         <NavBar />
+        <Divider/>
         </Header>
         <Content>
           <div
             className="site-layout-background"
             style={{ padding: 24, minHeight: "100vh" }}
           >
-            <Card title="Daily Visitors" bordered={true} style={{ width: "90%" }}  extra={<CustomDropDown />}>
+            <Card title="Daily Visitors" bordered={true} style={{ width: "90%" }}  extra={<CustomDropDown />} className="card">
           <Vchart />
     </Card>
           </div>
