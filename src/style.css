@@ -25,9 +25,10 @@ body{
 }
 
 .dp{
-  height:100px;
-  width: 100px;
+  height:80px;
+  width: 80px;
   margin-left: 5%;
+  margin-bottom: -10%;
 }
 
 
