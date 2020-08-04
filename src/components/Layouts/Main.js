@@ -1,15 +1,36 @@
-import React from 'react';
-import {Layout,Menu,Divider} from 'antd';
-import Profile from '../Profile/Profile';
+import React from "react";
+import SideItems from "./SideItems";
+import {HomeOutlined} from "@ant-design/icons"
+import { Layout, Divider } from "antd";
+const { Header, Content, Footer, Sider } = Layout;
 
-const {Sider,Header,Content,Footer} = Layout;
+const Main = () => {
+  return (
+    <Layout>
+      <Sider theme="dark" breakpoint="lg" collapsedWidth="0" className="bg">
+        <Header className="bg ctr">
+          <HomeOutlined />
+        </Header>
+        <Divider />
+        <div className="logo" />
+        <SideItems />
+      </Sider>
+      <Layout>
+        <Header
+          className="site-layout-sub-header-background"
+          style={{ padding: 0 }}
+        />
+        <Content style={{ margin: "24px 16px 0" }}>
+          <div
+            className="site-layout-background"
+            style={{ padding: 24, minHeight: 360 }}
+          >
+            content
+          </div>
+        </Content>
+      </Layout>
+    </Layout>
+  );
+};
 
-const Main = ()=>{
-    return(
-        <Layout>
-            <Profile />
-        </Layout>
-    )
-}
-
-export default Main
+export default Main;

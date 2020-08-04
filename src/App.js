@@ -1,12 +1,13 @@
-import React from 'react'
-import Main from './components/Layouts/Main'
+import React from "react";
+import "./style.css";
+import Main from "./components/Layouts/Main";
 
-const App  = ()=>{
-    return(
-        <div>
-            <Main />
-        </div>
-    )
-}
+const App = () => {
+  return (
+    <div>
+      <Main />
+    </div>
+  );
+};
 
-export default App 
+export default App;
