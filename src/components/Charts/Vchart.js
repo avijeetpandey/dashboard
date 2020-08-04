@@ -83,7 +83,7 @@ const Vchart = ()=>{
   <XAxis dataKey="name" />
   <Tooltip />
   <Legend />
-  <Bar dataKey="pv" fill="blue" />
+  
   <Bar dataKey="uv" fill="blue" />
 </BarChart>
         </ResponsiveContainer>
