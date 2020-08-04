@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu} from "antd";
+import { Menu, Divider,Typography, Space} from "antd";
 
 import Profile from "./../Profile/Profile";
 import {
@@ -11,11 +11,13 @@ import {
 } from "@ant-design/icons";
 const { SubMenu } = Menu;
 
+const {Text,Title} = Typography
 
 
 
 const SideItems = () => {
   return (
+    <div>
     <Menu theme="light" mode="inline">
      <Profile />
       <SubMenu
@@ -38,7 +40,15 @@ const SideItems = () => {
       <Menu.Item icon={<HddOutlined style={{ fontSize: 18 }} />}>
         Lab / Experimental
       </Menu.Item>
-    </Menu>
+      </Menu>
+      <Divider />
+      <Text disabled style={{fontWeight:500 , marginLeft:10}}>RECENTLY VIEWED</Text>
+      <Space direction="vertical"  style={{marginTop:5}}>
+      <Text  style={{fontWeight:600 , marginLeft:10}}>Overall Performance &#8594;</Text>
+      <Text  style={{fontWeight:600 , marginLeft:10}}>Invoice #940 &#8594;</Text>
+      <Text  style={{fontWeight:600 , marginLeft:10}}>Customer Minerva Viewer &#8594;</Text>
+      </Space>
+    </div>
   );
 };
 

@@ -4,8 +4,8 @@ import {Typography} from 'antd'
 const {Text,Title}=Typography
 
 const style = {
-    marginTop:15,
-    marginLeft : 20
+    marginTop:25,
+    marginLeft :20
 }
 
 const NavBar = ()=>{
