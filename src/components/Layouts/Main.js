@@ -13,7 +13,7 @@ const Main = () => {
     <Layout style={{ height: "100vh" }}>
       <Sider theme="dark" breakpoint="lg" collapsedWidth="0" className="bg">
         <Header className="bg ctr">
-          <HomeOutlined />
+          <HomeOutlined className="icon" />
         </Header>
         <SideItems />
       </Sider>
@@ -25,7 +25,7 @@ const Main = () => {
           <NavBar />
           <Divider />
         </Header>
-        <Content>
+        <Content style={{border:'none'}}>
           <div
             className="site-layout-background"
             style={{ padding: 24, minHeight: "100vh" }}

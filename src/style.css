@@ -1,11 +1,10 @@
-#components-layout-demo-responsive .logo {
-  height: 32px;
-  margin: 16px;
-}
 
 
 .site-layout-sub-header-background {
   background: #fff;
+  border-left:1px solid rgba(209, 206, 206, 0.884);
+  border-bottom:1px solid rgba(209, 206, 206, 0.884);
+  max-height: 10vh;
 }
 
 .site-layout-background {
@@ -24,6 +23,7 @@
 .dp {
   height: 80px;
   width: 80px;
+  margin-top:20%;
   margin-left: 5%;
   margin-bottom: -10%;
 }
@@ -45,7 +45,7 @@
 .card {
   margin: 0 auto;
   border-radius: 4px;
-  border:0.1px solid rgb(190, 189, 189);
+  border:0.1px solid rgba(209, 206, 206, 0.884);
   margin-bottom:2%;
 }
 
@@ -91,3 +91,7 @@
   border:1px solid rgb(209, 206, 206);
 }
 
+.icon{
+  font-size: 1.5rem;
+  margin-top:25%;
+}

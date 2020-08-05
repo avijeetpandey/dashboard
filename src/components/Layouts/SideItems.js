@@ -16,6 +16,7 @@ const { Text, Title } = Typography;
 const SideItems = () => {
   return (
     <div>
+
       <Menu theme="light" mode="inline">
         <Profile />
         <SubMenu
