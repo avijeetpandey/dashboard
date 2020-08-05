@@ -6,6 +6,7 @@ import { HomeOutlined } from "@ant-design/icons";
 import { Layout, Divider, Card, DropDown } from "antd";
 import CustomDropDown from "../Common/CustomDropDown";
 import CustomCard from "./../Card/CustomCard";
+import Stats from "./../Card/Stats";
 const { Header, Content, Sider } = Layout;
 
 const Main = () => {
@@ -40,8 +41,11 @@ const Main = () => {
             >
               <Vchart />
             </Card>
-            <Card className="card" >
+            <Card className="card">
               <CustomCard />
+            </Card>
+            <Card className="card">
+              <Stats />
             </Card>
           </div>
         </Content>
