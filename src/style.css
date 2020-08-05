@@ -52,5 +52,37 @@ body{
 }
 
 .title{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  color:black;
+}
+
+.t-text{
+  font-weight: 700;
+  font-size:0.6rem;
+  padding:10%;
+  color:gray;
+}
+
+.green-icon{
+  color:green;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.red-icon{
+  color:red;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.green-text{
+  color:green;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.red-text{
+  color:red;
+  font-weight: 500;
+  font-size: 0.8rem;
 }
