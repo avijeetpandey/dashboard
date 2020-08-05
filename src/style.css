@@ -3,29 +3,26 @@
   margin: 16px;
 }
 
-body{
-  background: #fff;
-}
 
 .site-layout-sub-header-background {
   background: #fff;
 }
 
 .site-layout-background {
+  background: rgb(228, 225, 225);
+}
+
+.bg {
   background: #fff;
 }
 
-.bg{
-  background: #fff;
-}
-
-.ctr{
+.ctr {
   text-align: center;
   font-size: 18px;
 }
 
-.dp{
-  height:80px;
+.dp {
+  height: 80px;
   width: 80px;
   margin-left: 5%;
   margin-bottom: -10%;
@@ -36,53 +33,61 @@ body{
   background: #ececec;
 }
 
-.dp-text{
+.dp-text {
   text-align: center;
 }
 
-.online{
-  color:green;
+.online {
+  color: green;
   font-size: 50px;
 }
 
-.card{
-  box-shadow: 2px 2px 2px 3px rgb(219, 214, 214);
-  margin:0 auto;
-  border-radius:4px;
+.card {
+  margin: 0 auto;
+  border-radius: 4px;
+  border:1px solid rgb(190, 189, 189);
+  margin-bottom:2%;
 }
 
-.title{
+.title {
   font-size: 1.8rem;
-  color:black;
+  color: black;
 }
 
-.t-text{
+.t-text {
   font-weight: 700;
-  font-size:0.6rem;
-  padding:10%;
-  color:gray;
+  font-size: 0.6rem;
+  padding: 10%;
+  color: gray;
 }
 
-.green-icon{
-  color:green;
+.green-icon {
+  color: green;
   font-weight: bold;
   font-size: 1.4rem;
 }
 
-.red-icon{
-  color:red;
+.red-icon {
+  color: red;
   font-weight: bold;
   font-size: 1.4rem;
 }
 
-.green-text{
-  color:green;
+.green-text {
+  color: green;
   font-weight: 500;
   font-size: 0.8rem;
 }
 
-.red-text{
-  color:red;
+.red-text {
+  color: red;
   font-weight: 500;
   font-size: 0.8rem;
 }
+
+.card-c{
+  box-shadow: 3px 5px 8px  rgb(199, 197, 197);
+  border-radius: 4px;
+  border:1px solid rgb(209, 206, 206);
+}
+

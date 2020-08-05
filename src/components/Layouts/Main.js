@@ -28,7 +28,7 @@ const Main = () => {
         <Content>
           <div
             className="site-layout-background"
-            style={{ padding: 24 , minHeight:"100vh" }}
+            style={{ padding: 24, minHeight: "100vh" }}
           >
             <Card
               title="Daily Visitors"
@@ -40,9 +40,9 @@ const Main = () => {
             >
               <Vchart />
             </Card>
-         <Card>
-         <CustomCard />
-         </Card>
+            <Card className="card" >
+              <CustomCard />
+            </Card>
           </div>
         </Content>
       </Layout>
