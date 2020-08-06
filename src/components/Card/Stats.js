@@ -6,13 +6,14 @@ const {Text} = Typography
 
 const Stats = ()=>{
     return(
-        <div className="ctr">
+        <div>
             <Row gutter={24}>
         <Col sm={16} span={24}>
           <Card
             style={{ marginTop: 16 }}
             bordered={true}
             className="card"
+            title="Most visited pages"
           >
             <StatsTable />
           </Card>
@@ -22,6 +23,7 @@ const Stats = ()=>{
             style={{ marginTop: 16 }}
             bordered={true}
             className="card"
+            title="Social media traffic"
           >
            <SocialMediaTable />
           </Card>

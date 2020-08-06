@@ -95,3 +95,16 @@
   font-size: 1.5rem;
   margin-top:25%;
 }
+
+
+.btn{
+  border: none;
+  
+}
+
+.table-icon{
+  font-size: 1.3rem;
+  color:gray;
+  cursor: pointer;
+  margin-left: 10%;
+}
