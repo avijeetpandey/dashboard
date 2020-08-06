@@ -21,13 +21,4 @@ Dashboard App inspired by the mockup below , made using ReactJS , Completely res
 <img src="./screenshots/home.jpg" />
 <br>
 
-### Mobile View
-**Dashboard-Mobile**<br>
-<img src="./screenshots/mobile1.jpg" height="500" />
-<br>
-
-**Charts-Mobile**<br>
-<img src="./screenshots/mobile2.jpg" height="500"/>
-<br>
-
 ### PS It was fun working on the assignment really enjoyed 😃😎
