@@ -21,4 +21,3 @@ Dashboard App inspired by the mockup below , made using ReactJS , Completely res
 <img src="./screenshots/home.jpg" />
 <br>
 
-### PS It was fun working on the assignment really enjoyed 😃😎
